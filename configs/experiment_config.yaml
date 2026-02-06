@@ -21,9 +21,6 @@ maintenance:
 
 # Neon connection settings
 database:
-  enabled: false  # switch：true or false
-  db_url: "postgresql://user:password@ep-cool-darkness-123456.us-east-2.aws.neon.tech/robot_db"
+  enabled: true  # switch：true or false
+  db_url: "postgresql://neondb_owner:npg_AelL3bdJj8Tt@ep-icy-sound-aiqbpzyi-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
   table_name: "robot_telemetry"
-
-data:
-  raw_path: "../data/raw/RMBR4-2_export_test.csv"
